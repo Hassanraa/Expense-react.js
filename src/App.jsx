@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <h1>Expense Tracker</h1>
-    <h3>Total amount of expenses{totalCalculator()}</h3>
+    <h3>Total amount of expenses RS:{totalCalculator()}</h3>
      <Expenseform   onAdd={addExpense}/>
      <ExpenseList expense={expense}  onDelete={expenseDelete}/>
      <button onClick={allDelete}>All clear</button>

@@ -15,8 +15,8 @@ export default function Expenseform({onAdd}){
             setCategory('')    
             }
     return(
-        <>
-        <form onSubmit={handleSubmit}>
+        <div >
+        <form onSubmit={handleSubmit}className="form">
         <input placeholder="Enter Amount" value={amount} onChange={(e)=>setAmount(e.target.value)}/>
          <input placeholder="title" value={text} onChange={(e)=>setText(e.target.value)}/>
          <select value={category} onChange={(e)=>setCategory(e.target.value)} >
@@ -27,6 +27,6 @@ export default function Expenseform({onAdd}){
          </select>
         <button>Submit</button>
         </form>
-        </>
+        </div>
     )
 }
