@@ -1,5 +1,13 @@
 # React + Vite
-
+# This project develop with the help of Youtube https://www.youtube.com/watch?v=PS5cBIBtx_s&t=3093s
+Lerning Points 
+1. Reduse 
+2. props
+3. custom hooks
+4. Use of ID to delete Array 
+5. data Store in Array 
+6. way of return object in custom hook
+7. import custom hook with objects
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
